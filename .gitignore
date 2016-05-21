@@ -1,4 +1,6 @@
 *.class
+src/mikejyg/
+bin/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -61,3 +63,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+java_src.zip
