@@ -13,9 +13,9 @@ public class PacMan {
 		// Create window object to handle everything
 		Window window = new Window();
 		// Create gameObjects for the knowledge of how to render
-		GameObjects gameObjects = new GameObjects();
+		// GameObjects gameObjects = new GameObjects();
 		// Create the gameLoop to run the game
-		GameLoop gameLoop = new GameLoop(jframe, gameObjects);
+		GameLoop gameLoop = new GameLoop(jframe/* , gameObjects */);
 
 		// Sets all needed params of the JFrame and adds the game to the panel
 		jframe = window.createWindow(jframe, gameLoop);

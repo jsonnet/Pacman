@@ -26,11 +26,11 @@ public class GameLoop extends JPanel {
 	/* OBJECTS */
 	// Copysave objects
 	private JFrame jframe;
-	private GameObjects gameObjects;
+	// private GameObjects gameObjects;
 
-	public GameLoop(JFrame jframe, GameObjects gameObjects) {
+	public GameLoop(JFrame jframe /* , GameObjects gameObjects */) {
 		this.jframe = jframe;
-		this.gameObjects = gameObjects;
+		// this.gameObjects = gameObjects;
 
 		// Start the main game
 		this.running = true;
