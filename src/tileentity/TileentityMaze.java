@@ -124,7 +124,7 @@ public class TileentityMaze {
 		int i, j;
 		int iDir;
 
-		g.setColor(Color.green);
+		g.setColor(Color.blue);
 
 		for (i = 0; i < TileentityMaze.HEIGHT; i++)
 			for (j = 0; j < TileentityMaze.WIDTH; j++)
@@ -272,5 +272,5 @@ public class TileentityMaze {
 				break;
 		}
 	}
-
+	// (c) 2016 Joshua Sonnet
 }

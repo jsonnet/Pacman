@@ -33,7 +33,7 @@ public class GameMainClass extends Frame implements Runnable, KeyListener, Actio
 
 	// for graphics
 	final int canvasWidth = 368;
-	final int canvasHeight = 288 + 1;
+	final int canvasHeight = 289;
 
 	// the canvas starting point within the frame
 	int topOffset;
@@ -104,27 +104,18 @@ public class GameMainClass extends Frame implements Runnable, KeyListener, Actio
 
 		// init variables
 		this.hiScore = 0;
-
 		this.gameState = this.INITIMAGE;
 
 		this.initGUI();
-
-		this.addWindowListener(this);
-
-		this.addKeyListener(this);
-
-		this.setSize(this.canvasWidth, this.canvasHeight);
-
-		this.setVisible(true);
-
-		// System.out.println("cpcman done");
-
 	}
 
 	void initGUI() {
-		this.addNotify(); // for updated inset information
+		this.addWindowListener(this);
+		this.addKeyListener(this);
+		this.setSize(this.canvasWidth, this.canvasHeight);
+		this.setVisible(true);
 
-		// System.out.println("initGUI done.");
+		this.addNotify(); // for updated inset information
 	}
 
 	public void initImages() {
@@ -510,9 +501,6 @@ public class GameMainClass extends Frame implements Runnable, KeyListener, Actio
 		}
 	}
 
-	// for applet the check state
-	boolean finalized = false;
-
 	@Override
 	public void dispose() {
 		// timer.stop(); // deprecated
@@ -541,15 +529,6 @@ public class GameMainClass extends Frame implements Runnable, KeyListener, Actio
 		this.imgHiScoreG = null;
 
 		super.dispose();
-
-		this.finalized = true;
 	}
-
-	public boolean isFinalized() {
-		return this.finalized;
-	}
-
-	public void setFinalized(boolean finalized) {
-		this.finalized = finalized;
-	}
+	// (c) 2016 Joshua Sonnet
 }
