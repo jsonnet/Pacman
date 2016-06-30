@@ -89,4 +89,5 @@ public class TileentityPowerdot {
 			else
 				this.graphics.drawImage(this.imageBlank, this.iX[i] * 16, this.iY[i] * 16, this.applet);
 	}
+	// (c) 2016 Joshua Sonnet
 }

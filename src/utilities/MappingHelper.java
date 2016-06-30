@@ -46,5 +46,5 @@ public class MappingHelper {
 			"X...................X", // 15
 			"XXXXXXXXXXXXXXXXXXXXX", // 16
 	};
-
+	// (c) 2016 Joshua Sonnet
 }

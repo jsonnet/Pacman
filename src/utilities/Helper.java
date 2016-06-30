@@ -25,7 +25,7 @@ public class Helper {
 			return (0);
 		if (iD > 0)
 			return (1);
-		else
-			return (-1);
+		return (-1);
 	}
+	// (c) 2016 Joshua Sonnet
 }

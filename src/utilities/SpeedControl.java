@@ -50,4 +50,5 @@ public class SpeedControl {
 		}
 		return (0);
 	}
+	// (c) 2016 Joshua Sonnet
 }

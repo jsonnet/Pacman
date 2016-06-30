@@ -128,4 +128,5 @@ public class EntityPacman {
 	public void setiX(int iX) {
 		this.iX = iX;
 	}
+	// (c) 2016 Joshua Sonnet
 }
